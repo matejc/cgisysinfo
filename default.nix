@@ -21,7 +21,6 @@ let
         listen ${listenAddress};
 
         location ~ .(py|pl|sh)$ {
-          deny all;
           auth_basic "closed site";
           auth_basic_user_file ${htpasswd};
 
