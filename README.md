@@ -32,6 +32,19 @@ Open `https://localhost:9999/` in browser
 or use `curl`: `curl --user user:password -k https://localhost:9999/`
 
 
+Example output:
+
+```
+
+RAM: 2.6G/7.8G
+Swap: 38M/9G
+firefox: cpu:9.2%, mem:3.6%, u:matej
+chromium: cpu:1.9%, mem:1.5%, u:matej
+chromium: cpu:1.6%, mem:1.2%, u:matej
+
+```
+
+
 Options
 -------
 
