@@ -68,7 +68,15 @@ Options
     Default: "passord"
 
 
-Example:
+Example
+-------
+
+Run:
 ```bash
 nix-shell --argstr prefix `pwd` --argstr listenAddress "0.0.0.0:8080" --argstr user "matejc" --argstr password "mypassword"
+```
+
+On key binding:
+```bash
+notify-send "`curl --user matejc:mypassword -k https://<someIp>:8080/`"
 ```
