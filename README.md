@@ -5,8 +5,8 @@ cgisysinfo
 Description
 -----------
 
-Get system info of remote computer through ssl and basic auth.
-Uses nginx and fcgiwrap.
+Get system info of remote computer through ssl and basic auth. Written with Nix expressions language.
+Uses Nginx and fcgiwrap, but Nix is a package manager, so why bother installing anything but Nix :)
 
 This is one.. khm.. two day long proof of concept relaxing project. :)
 
